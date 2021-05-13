@@ -1,6 +1,6 @@
 # Resume as Code
 
-View my resume: [cv.craftycoder.com](https://cv.craftycoder.com/)
+View my resume: [craftycoder.com/cv](https://craftycoder.com/cv)
 
 Many years have gone by since I drafted a resume. I've been very busy working, either in my own businesses or in the employ of start ups or other small firms. The last time I handed someone a resume was in the 90s. Work finds me typically.
 
