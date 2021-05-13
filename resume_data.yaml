@@ -15,7 +15,7 @@ about_me:
   - description: Experienced tech team leader. Full-stack site reliability engineer. IoT electronics designer.
   - description: Lifelong learner interested in solving hard problems. Manifesting new things into reality is my passion. My career has taught me that execution trumps ideas. Great things do not just happen. They are made by applying creativity, grit, and hard work.
   - description: My experience is in software, hardware, and their interface. I am equally comfortable designing a high performance compute cluster, a tiny circuit, or a mobile computing interface to bring the other two things together. Managing a network of human resources and applying their narrow talents to a complex problem is the path to success.
-  - description: Voracious reader of history. Math nerd. Guitarist. Family man. Entrepreneur.
+  - description: Voracious reader of history. Math nerd. Guitarist. Husband. Father. Entrepreneur.
 education:
 - major: Information Technology
   description:
@@ -44,10 +44,10 @@ experience:
     tags: [Tornado, Docker, Kubernetes, Prometheus, Helm, Jenkins, Gradle, Git, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash]
   - description: Ground up design and implementation of application APIs responsible for tracking and billing of all aspects of the product offering.
     tags: [Java, Jersey 2, Python, Tornado, KMS, Cognito, Serverless, Node.js, Polymer]
-  - description: Ground up design and implementation of browser based 3D spatial results visualization system. Capable of playing animations of 50GB datasets at 30FPS without massive data downloads with client-side rendering.
+  - description: Ground up design and implementation of browser-based 3D spatial results visualization system. Capable of playing animations of 50GB datasets at 30FPS without massive data downloads with client-side rendering.
     tags: [C/C++, Python, Tornado, Kubernetes, VTK, Angular, Three.js, Typescript]
     demo: https://youtu.be/SvPPpQrwlJE?t=145
-  - description: Leader of and developer on our core simulation APIs framework, which has bindings to multiple programming languages and compiles generically for any physics solver.
+  - description: Owner of and contributor to our core simulation APIs framework, which has bindings to multiple programming languages and compiles generically for any physics solver.
     tags: [Rusoto, PyO3, wasm-bindgen, bindgen, Serde, NumPy, asyncio, Tornado]
   - description: Owner of multi-cloud infrastructure monitoring system.
     tags: [Kubernetes, Grafana, EKS, GKE, Prometheus, Cortex, Helm, Node.js, Cloud Functions, Lambda]
@@ -64,7 +64,7 @@ experience:
   - description: Designed for manufacture a 1500W automotive power distribution unit. Developed mobile applications and cloud software to provide in vehicle and motor pool situational awareness for customers.
     tags: [C/C++, KiCad, Eagle, PCB Layout, Digital electronics design, Firmware, Bootloader, Bluetooth, Java (Android), Objective C, Firebase, AppEngine, Polymer]
     demo: https://motobrain.net
-  - description: Designed for manufacture a water purification sensor capable of distinguishing between salt water to distilled water at 0-70C. That is 8 orders of magnitude of sensitivity in a transimpedience circuit.
+  - description: Designed for manufacture a water purification sensor capable of distinguishing between salt water to distilled water at 0-70C, which is 8 orders of magnitude of sensitivity in a transimpedience circuit.
     tags: [C/C++, KiCad, PCB Layout, Firmware, Digital electronics design, Analog electronics design, LT Spice]
   - description: Assisted recently acquired MEMS manufacturer to attach their novel sensors to MCUs, and Android. My code is running in Tesla automobiles I am told.
     tags: [C/C++, Linux Kernel Drivers, Firmware, Java (Android)]
@@ -90,7 +90,7 @@ experience:
   - description: Ground up design and implementation of real property risk management software tool responsible for insuring the majority of real property transactions in several states.
     tags: [Java, MS SQL Server, EC2, RDS, TSQL, AppEngine, Firebase, Cloud Dataflow, Accumulo, Bigtable, Geospatial Expert]
     demo: https://www.youtube.com/watch?v=Pfqpzak-pvE
-  - description: Built a LSTM recurrent neural network to read deeds, mortgages and extract parties, legal descriptions, and amounts to reduce data entry costs. Trained on TBs of images and data. Highly effective!
+  - description: Built a highly effective LSTM recurrent neural network to read deeds, mortgages and extract parties, legal descriptions, and amounts to reduce data entry costs. Trained on TBs of images and data.
     tags: [Dataflow, TensorFlow, Cloud Dataflow, Apache Beam, AI Platform, Polymer, AppEngine, Firebase]
     demo: https://www.youtube.com/watch?v=qDP8__fmzks
   - description: Owner of production quality data entry software system optimized for high accuracy and low time waste.

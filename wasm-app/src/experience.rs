@@ -107,10 +107,10 @@ impl ExperienceComponent {
         }
         html! {
             <li class=class onmouseover=mouseover onmouseout=mouseout>
-                { duty.get_description() }
                 <span class=democlass>
                     <a href=duty.get_demo() target="_blank">{ "Demo" }</a>
                 </span>
+                { duty.get_description() }
             </li>
         }
     }

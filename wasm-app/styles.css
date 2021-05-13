@@ -219,7 +219,6 @@ h4 a {
 
 .demo {
     padding-left: .5rem;
-    display: inline-block;
     border-style: solid;
     border-width: 0.0625rem;
     border-radius: 0.25rem;
@@ -233,6 +232,7 @@ h4 a {
     background-color: var(--tint);
     color: var(--background);
     font-weight: bold;
+    float: right;
 }
 
 .demo a {
