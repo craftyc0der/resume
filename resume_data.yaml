@@ -1,0 +1,214 @@
+name: Joshua Oster-Morris
+source_code: github.com/craftyc0der/resume
+host_link: craftycoder.com/cv
+email: josh@craftycoder.com
+phone_number:
+  country_code: 1
+  number: 4046474769
+location: &atlanta
+  city: Atlanta
+  state: GA
+  country: US
+linkedin_profile: joshua-oster-morris
+github_profile: craftyc0der
+about_me:
+  - description: Experienced tech team leader. Full-stack site reliability engineer. IoT electronics designer.
+  - description: Lifelong learner interested in solving hard problems. Manifesting new things into reality is my passion. My career has taught me that execution trumps ideas. Great things do not just happen. They are made by applying creativity, grit, and hard work.
+  - description: My experience is in software, hardware, and their interface. I am equally comfortable designing a high performance compute cluster, a tiny circuit, or a mobile computing interface to bring the other two things together. Managing a network of human resources and applying their narrow talents to a complex problem is the path to success.
+  - description: Voracious reader of history. Math nerd. Guitarist. Family man. Entrepreneur.
+education:
+- major: Information Technology
+  description:
+  period:
+    start: "2000-08-04T00:00:00Z"
+    end: "2002-06-15T00:00:00Z"
+  degree: BACHELORS
+  location: &tucson
+    city: Tucson
+    state: AZ
+    country: US
+experience:
+- title: Senior Director of Cloud Technologies
+  organization: OnScale
+  website: https://onscale.com/
+  period:
+    start: "2018-06-01T00:00:00Z"
+  location: *atlanta
+  duty:
+  - description: Hire and lead team of talented professionals with the intention of changing how engineering is done.
+    tags: [Scrum Master]
+  - description: Ground up design and implementation of patented asynchronous HPC scheduler for physics solvers on multiple clouds via Kubernetes, enabling highly parallel and multi-node simulations on-demand with end-to-end encryption.
+    tags: [boto3, CloudFormation, VPC, Kubernetes, EKS, GKE, Azure, AKS, Docker, Redis, Kafka, GKE, S3, EKS, KMS, DynamoDB, Lambda, Linux Bash, Java, Node.js, Serverless]
+    demo: https://www.youtube.com/watch?v=bxvZBfbyhiA
+  - description: Ground up design and implementation of CI/CD infrastructure for the microservice application stack.
+    tags: [Tornado, Docker, Kubernetes, Prometheus, Helm, Jenkins, Gradle, Git, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash]
+  - description: Ground up design and implementation of application APIs responsible for tracking and billing of all aspects of the product offering.
+    tags: [Java, Jersey 2, Python, Tornado, KMS, Cognito, Serverless, Node.js, Polymer]
+  - description: Ground up design and implementation of browser based 3D spatial results visualization system. Capable of playing animations of 50GB datasets at 30FPS without massive data downloads with client-side rendering.
+    tags: [C/C++, Python, Tornado, Kubernetes, VTK, Angular, Three.js, Typescript]
+    demo: https://youtu.be/SvPPpQrwlJE?t=145
+  - description: Leader of and developer on our core simulation APIs framework, which has bindings to multiple programming languages and compiles generically for any physics solver.
+    tags: [Rusoto, PyO3, wasm-bindgen, bindgen, Serde, NumPy, asyncio, Tornado]
+  - description: Owner of multi-cloud infrastructure monitoring system.
+    tags: [Kubernetes, Grafana, EKS, GKE, Prometheus, Cortex, Helm, Node.js, Cloud Functions, Lambda]
+  - description: Responsible for all security and organization best practices. Earned SOC 2 compliance, lead AWS Advanced technical reviews, own disaster recovery plans.
+    tags: [DynamoDB, VPC, CloudTrail, BigQuery, Airflow, IAM, SOC 2, Scrum Master]
+- title: Principal
+  organization: DC Control Systems, LLC
+  website: https://dc-control.com/
+  period:
+    start: "2013-03-20T00:00:00Z"
+    end: "2018-05-12T00:00:00Z"
+  location: *atlanta
+  duty:
+  - description: Designed for manufacture a 1500W automotive power distribution unit. Developed mobile applications and cloud software to provide in vehicle and motor pool situational awareness for customers.
+    tags: [C/C++, KiCad, Eagle, PCB Layout, Digital electronics design, Firmware, Bootloader, Bluetooth, Java (Android), Objective C, Firebase, AppEngine, Polymer]
+    demo: https://motobrain.net
+  - description: Designed for manufacture a water purification sensor capable of distinguishing between salt water to distilled water at 0-70C. That is 8 orders of magnitude of sensitivity in a transimpedience circuit.
+    tags: [C/C++, KiCad, PCB Layout, Firmware, Digital electronics design, Analog electronics design, LT Spice]
+  - description: Assisted recently acquired MEMS manufacturer to attach their novel sensors to MCUs, and Android. My code is running in Tesla automobiles I am told.
+    tags: [C/C++, Linux Kernel Drivers, Firmware, Java (Android)]
+- title: Principal
+  organization: Global Health Data Systems, LLC
+  period:
+    start: "2011-11-01T00:00:00Z"
+    end: "2015-12-01T00:00:00Z"
+  location: *atlanta
+  duty:
+  - description: Developed mobile versions of VAERS (Vaccine Adverse Event Reporting System) for CDC as primary contractor. My firm ran trials of the platform in clinics in multiple states to show success metrics relative to the fax-in forms.
+    tags: [GCS, Swift, Objective C, Java (Android), C# (Windows Mobile), Polymer]
+  - description: Developed novel algorithms to search next-gen DNA sequences on custom silicon. Reduces energy cost per sequence by many times over traditional CPU based methods.
+    tags: [Scala, FPGA, VHDL]
+- title: Software Architect
+  organization: Data Services Inc
+  website: https://www.dsipro.com/
+  period:
+    start: "1999-07-01T00:00:00Z"
+    end: "2018-09-01T00:00:00Z"
+  location: *tucson
+  duty:
+  - description: Ground up design and implementation of real property risk management software tool responsible for insuring the majority of real property transactions in several states.
+    tags: [Java, MS SQL Server, EC2, RDS, TSQL, AppEngine, Firebase, Cloud Dataflow, Accumulo, Bigtable, Geospatial Expert]
+    demo: https://www.youtube.com/watch?v=Pfqpzak-pvE
+  - description: Built a LSTM recurrent neural network to read deeds, mortgages and extract parties, legal descriptions, and amounts to reduce data entry costs. Trained on TBs of images and data. Highly effective!
+    tags: [Dataflow, TensorFlow, Cloud Dataflow, Apache Beam, AI Platform, Polymer, AppEngine, Firebase]
+    demo: https://www.youtube.com/watch?v=qDP8__fmzks
+  - description: Owner of production quality data entry software system optimized for high accuracy and low time waste.
+    tags: [Java, MS SQL Server]
+skills:
+- category: AWS
+  tags:
+  - EC2
+  - ECR
+  - EKS
+  - CloudFormation
+  - CloudTrail
+  - Cognito
+  - DynamoDB
+  - IAM
+  - KMS
+  - Lambda
+  - RDS
+  - S3
+  - VPC
+- category: GCP
+  tags:
+  - AI Platform
+  - AppEngine
+  - BigQuery
+  - Bigtable
+  - Cloud Dataflow
+  - Cloud Functions
+  - Firebase
+  - GCE
+  - GCS
+  - GKE
+  - IAM
+- category: DevOps
+  tags:
+  - Docker
+  - Kubernetes
+  - Prometheus
+  - Cortex
+  - Grafana
+  - Helm
+  - Jenkins
+  - Git
+  - Redis
+  - Kafka
+  - Serverless
+  - Airflow
+- category: General Programming
+  tags:
+  - Java
+  - C/C++
+  - C#
+  - Rust
+  - Python
+  - Node.js
+  - Scala
+- category: Mobile Programming
+  tags:
+  - Java (Android)
+  - Objective C
+  - Swift
+  - C# (Windows Mobile)
+- category: Web Programming
+  tags:
+  - Angular
+  - Three.js
+  - Hugo
+  - Polymer
+  - TypeScript
+  - React
+  - Coldfusion
+- category: Rust
+  tags:
+  - Rusoto
+  - Serde
+  - bindgen
+  - wasm-bindgen
+  - PyO3
+- category: Python
+  tags:
+  - pandas
+  - NumPy
+  - TensorFlow
+  - Tornado
+  - boto3
+- category: Database
+  tags:
+  - MS SQL Server
+  - TSQL
+  - Accumulo
+  - Geospatial Expert
+  - Bigtable
+  - Firebase
+  - BigQuery
+  - Foxpro
+- category: Electronics
+  tags:
+  - FPGA
+  - VHDL
+  - Digital electronics design
+  - Analog electronics design
+  - Firmware
+  - Bootloader
+  - Bluetooth
+  - PCB Layout
+  - KiCad
+  - Eagle
+  - LT Spice
+- category: Other
+  tags:
+  - Apache Beam
+  - VTK
+  - Jersey 2
+  - Linux Bash
+  - Linux Kernel Drivers
+  - SOC 2
+  - Scrum Master
+  - Azure
+  - AKS
+
+

@@ -1,0 +1,14 @@
+# Cache/IDE
+.DS_Store
+.vscode
+__pycache__/
+.bash_history
+.rustup/
+.cache/
+node_modules/
+
+# Build targets
+**/target
+**/Cargo.lock
+**/pkg
+dist/
