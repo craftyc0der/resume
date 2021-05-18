@@ -46,7 +46,7 @@ PCB LayoutFirmwareDigital electronics designAnalog electronics designLT 
 áDeveloped mobile versions of VAERS (Vaccine Adverse Event Reporting System) for CDC as primary contractor. My firm ran trials of the platform in clinics in multiple states to show success metrics relative to the fax-in forms.GCSSwiftObjective CJava (Android)C# (Windows Mobile)Polymer2·
 ¡Developed novel algorithms to search next-gen DNA sequences on custom silicon. Reduces energy cost per sequence by many times over traditional CPU based methods.ScalaFPGAVHDLZ„
 Software ArchitectData Services Inchttps://www.dsipro.com/"
-€ßê»€­§Ü*
+€ßê»€Üž×*
 TucsonAZUS2Ê
 ©Ground up design and implementation of real property risk management software tool responsible for insuring the majority of real property transactions in several states.JavaMS SQL ServerEC2RDSTSQL	AppEngineFirebaseCloud DataflowAccumuloBigtableGeospatial Expert+https://www.youtube.com/watch?v=Pfqpzak-pvE2Ñ
 ÃBuilt a highly effective LSTM recurrent neural network to read deeds, mortgages and extract parties, legal descriptions, and amounts to reduce data entry costs. Trained on TBs of images and data.Dataflow
