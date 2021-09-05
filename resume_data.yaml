@@ -28,29 +28,41 @@ education:
     state: AZ
     country: US
 experience:
+- title: Principal Architect
+  organization: Synthesis School
+  website: https://synthesis.is/
+  period:
+    start: "2021-09-01T00:00:00Z"
+  location: *atlanta
+  duty:
+  - description: Hire and guide a team of talented professionals.
+    tags: [Scrum Master]
+  - description: Design and implementation of an authoritative, horizontally scalable, game server fleet management tool.
+    tags: [Go, Gin, Kubernetes, DynamoDB, Agones, EKS, Rusoto]
+  - description: Member of team responsible for the overall cloud footprint with the goal of optimizing for reliability, responsiveness, and situational awareness.
+    tags: [EC2, ECR, S3, IAM, Terraform, DataDog, CloudFormation]
+  - description: Design CI-CD systems to improve efficiency and reliability of code deployment.
+    tags: [Github Actions, ECR, Helm, EKS, Kubernetes, Agones, Docker, Make]
 - title: Senior Director of Cloud Technologies
   organization: OnScale
   website: https://onscale.com/
   period:
     start: "2018-06-01T00:00:00Z"
+    end: "2021-08-31T00:00:00Z"
   location: *atlanta
   duty:
-  - description: Hire and lead team of talented professionals with the intention of changing how engineering is done.
+  - description: Hire and lead team of talented professionals.
     tags: [Scrum Master]
-  - description: Ground up design and implementation of patented asynchronous HPC scheduler for physics solvers on multiple clouds via Kubernetes, enabling highly parallel and multi-node simulations on-demand with end-to-end encryption.
-    tags: [boto3, CloudFormation, VPC, Kubernetes, EKS, GKE, Azure, AKS, Docker, Redis, Kafka, GKE, S3, EKS, KMS, DynamoDB, Lambda, Linux Bash, Java, Node.js, Serverless]
+  - description: Design and implementation of patented HPC scheduler for physics solvers on multiple clouds via Kubernetes, enabling highly parallel and multi-node simulations with end-to-end encryption.
+    tags: [boto3, CloudFormation, VPC, Kubernetes, EKS, GKE, Azure, AKS, Docker, Redis, Kafka, GKE, S3, EKS, KMS, DynamoDB, LogDNA, Lambda, Linux Bash, Java, Node.js, Serverless]
     demo: https://www.youtube.com/watch?v=bxvZBfbyhiA
-  - description: Ground up design and implementation of CI/CD infrastructure for the microservice application stack.
-    tags: [Tornado, Docker, Kubernetes, Prometheus, Helm, Jenkins, Gradle, Git, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash]
-  - description: Ground up design and implementation of application APIs responsible for tracking and billing of all aspects of the product offering.
-    tags: [Java, Jersey 2, Python, Tornado, KMS, Cognito, Serverless, Node.js, Polymer]
-  - description: Ground up design and implementation of browser-based 3D spatial results visualization system. Capable of playing animations of 50GB datasets at 30FPS without massive data downloads with client-side rendering.
-    tags: [C/C++, Python, Tornado, Kubernetes, VTK, Angular, Three.js, Typescript]
+  - description: Design and implementation of CI/CD infrastructure for and monitoring of the microservice application stack.
+    tags: [Tornado, Docker, Kubernetes, Prometheus, Helm, Jenkins, Gradle, Git, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash, Kubernetes, Grafana, EKS, GKE, Prometheus, Cortex, Helm, Node.js, Cloud Functions, LogDNA, Lambda]
+  - description: Design and implementation of browser-based 3D spatial results visualization system.
+    tags: [C/C++, Python, Tornado, Kubernetes, VTK, Angular, Three.js, TypeScript]
     demo: https://youtu.be/SvPPpQrwlJE?t=145
-  - description: Owner of and contributor to our core simulation APIs framework, which has bindings to multiple programming languages and compiles generically for any physics solver.
+  - description: Owner of and contributor to our core simulation APIs framework, which has bindings to multiple programming languages and physics solvers.
     tags: [Rusoto, PyO3, wasm-bindgen, bindgen, Serde, NumPy, asyncio, Tornado]
-  - description: Owner of multi-cloud infrastructure monitoring system.
-    tags: [Kubernetes, Grafana, EKS, GKE, Prometheus, Cortex, Helm, Node.js, Cloud Functions, Lambda]
   - description: Responsible for all security and organization best practices. Earned SOC 2 compliance, lead AWS Advanced technical reviews, own disaster recovery plans.
     tags: [DynamoDB, VPC, CloudTrail, BigQuery, Airflow, IAM, SOC 2, Scrum Master]
 - title: Principal
@@ -61,10 +73,10 @@ experience:
     end: "2018-05-12T00:00:00Z"
   location: *atlanta
   duty:
-  - description: Designed for manufacture a 1500W automotive power distribution unit. Developed mobile applications and cloud software to provide in vehicle and motor pool situational awareness for customers.
+  - description: Designed for manufacture automotive electronics. Developed mobile applications and cloud software to provide in vehicle and motor pool situational awareness for customers.
     tags: [C/C++, KiCad, Eagle, PCB Layout, Digital electronics design, Firmware, Bootloader, Bluetooth, Java (Android), Objective C, Firebase, AppEngine, Polymer]
     demo: https://motobrain.net
-  - description: Designed for manufacture a water purification sensor capable of distinguishing between salt water to distilled water at 0-70C, which is 8 orders of magnitude of sensitivity in a transimpedience circuit.
+  - description: Designed for manufacture a water purification sensor capable of 8 orders of magnitude of sensitivity in a transimpedience circuit.
     tags: [C/C++, KiCad, PCB Layout, Firmware, Digital electronics design, Analog electronics design, LT Spice]
   - description: Assisted recently acquired MEMS manufacturer to attach their novel sensors to MCUs, and Android. My code is running in Tesla automobiles I am told.
     tags: [C/C++, Linux Kernel Drivers, Firmware, Java (Android)]
@@ -75,9 +87,9 @@ experience:
     end: "2015-12-01T00:00:00Z"
   location: *atlanta
   duty:
-  - description: Developed mobile versions of VAERS (Vaccine Adverse Event Reporting System) for CDC as primary contractor. My firm ran trials of the platform in clinics in multiple states to show success metrics relative to the fax-in forms.
+  - description: Developed mobile versions of VAERS (Vaccine Adverse Event Reporting System) for CDC as primary contractor.
     tags: [GCS, Swift, Objective C, Java (Android), C# (Windows Mobile), Polymer]
-  - description: Developed novel algorithms to search next-gen DNA sequences on custom silicon. Reduces energy cost per sequence by many times over traditional CPU based methods.
+  - description: Developed novel algorithms to search next-gen DNA sequences on custom silicon.
     tags: [Scala, FPGA, VHDL]
 - title: Software Architect
   organization: Data Services Inc
@@ -91,7 +103,7 @@ experience:
     tags: [Java, MS SQL Server, EC2, RDS, TSQL, AppEngine, Firebase, Cloud Dataflow, Accumulo, Bigtable, Geospatial Expert]
     demo: https://www.youtube.com/watch?v=Pfqpzak-pvE
   - description: Built a highly effective LSTM recurrent neural network to read deeds, mortgages and extract parties, legal descriptions, and amounts to reduce data entry costs. Trained on TBs of images and data.
-    tags: [Dataflow, TensorFlow, Cloud Dataflow, Apache Beam, AI Platform, Polymer, AppEngine, Firebase]
+    tags: [TensorFlow, Cloud Dataflow, Apache Beam, AI Platform, Polymer, AppEngine, Firebase]
     demo: https://www.youtube.com/watch?v=qDP8__fmzks
   - description: Owner of production quality data entry software system optimized for high accuracy and low time waste.
     tags: [Java, MS SQL Server]
@@ -124,6 +136,7 @@ skills:
   - GCS
   - GKE
   - IAM
+  - Agones
 - category: DevOps
   tags:
   - Docker
@@ -132,15 +145,22 @@ skills:
   - Cortex
   - Grafana
   - Helm
+  - Github Actions
+  - Terraform
   - Jenkins
+  - DataDog
+  - LogDNA
   - Git
   - Redis
   - Kafka
   - Serverless
   - Airflow
+  - Gradle
+  - Make
 - category: General Programming
   tags:
   - Java
+  - Go
   - C/C++
   - C#
   - Rust
@@ -155,6 +175,7 @@ skills:
   - C# (Windows Mobile)
 - category: Web Programming
   tags:
+  - Gin
   - Angular
   - Three.js
   - Hugo
@@ -173,6 +194,7 @@ skills:
   tags:
   - pandas
   - NumPy
+  - asyncio
   - TensorFlow
   - Tornado
   - boto3

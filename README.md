@@ -93,7 +93,7 @@ Rust's Cargo tool chain is used to compile the Rust/wasm components of this proj
 #### [wasm-pack](https://github.com/rustwasm/wasm-pack)
 This tool is used to build Rust-based web assembly projects and compile to JavaScript-compatible targets. Can be installed along via cargo:
 ```
-cargo install wasm-pack wasm-bindgen-cli
+OPENSSL_DIR=/home/josh/anaconda3/envs/dev/bin/openssl cargo install wasm-pack wasm-bindgen-cli
 ```
 
 <a name="python"></a>
