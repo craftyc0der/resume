@@ -38,9 +38,9 @@ experience:
   - description: Hire and guide a team of talented professionals.
     tags: [Scrum Master]
   - description: Design and implementation of an authoritative, horizontally scalable, game server fleet management tool.
-    tags: [Go, Gin, Kubernetes, DynamoDB, Agones, EKS, Rusoto]
+    tags: [Go, Gin, Rust, Helm, Kubernetes, DynamoDB, Agones, EKS, Rusoto, Node.js]
   - description: Member of team responsible for the overall cloud footprint with the goal of optimizing for reliability, responsiveness, and situational awareness.
-    tags: [EC2, ECR, S3, IAM, Terraform, DataDog, CloudFormation]
+    tags: [EC2, ECR, S3, IAM, Terraform, Prometheus, Grafana, Datadog, CloudFormation]
   - description: Design CI-CD systems to improve efficiency and reliability of code deployment.
     tags: [Github Actions, ECR, Helm, EKS, Kubernetes, Agones, Docker, Make]
 - title: Senior Director of Cloud Technologies
@@ -57,7 +57,7 @@ experience:
     tags: [boto3, CloudFormation, VPC, Kubernetes, EKS, GKE, Azure, AKS, Docker, Redis, Kafka, GKE, S3, EKS, KMS, DynamoDB, LogDNA, Lambda, Linux Bash, Java, Node.js, Serverless]
     demo: https://www.youtube.com/watch?v=bxvZBfbyhiA
   - description: Design and implementation of CI/CD infrastructure for and monitoring of the microservice application stack.
-    tags: [Tornado, Docker, Kubernetes, Prometheus, Helm, Jenkins, Gradle, Git, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash, Kubernetes, Grafana, EKS, GKE, Prometheus, Cortex, Helm, Node.js, Cloud Functions, LogDNA, Lambda]
+    tags: [Tornado, Docker, Kubernetes, Prometheus, Helm, Jenkins, Gradle, Git, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash, Kubernetes, Grafana, EKS, GKE, Prometheus, Cortex, Datadog, Helm, Node.js, Cloud Functions, LogDNA, Lambda]
   - description: Design and implementation of browser-based 3D spatial results visualization system.
     tags: [C/C++, Python, Tornado, Kubernetes, VTK, Angular, Three.js, TypeScript]
     demo: https://youtu.be/SvPPpQrwlJE?t=145
@@ -123,6 +123,7 @@ skills:
   - RDS
   - S3
   - VPC
+  - AMP
 - category: GCP
   tags:
   - AI Platform
@@ -148,7 +149,8 @@ skills:
   - Github Actions
   - Terraform
   - Jenkins
-  - DataDog
+  - Datadog
+  - AMP
   - LogDNA
   - Git
   - Redis
@@ -159,14 +161,14 @@ skills:
   - Make
 - category: General Programming
   tags:
-  - Java
   - Go
-  - C/C++
-  - C#
   - Rust
+  - Java
+  - C/C++
   - Python
   - Node.js
   - Scala
+  - C#
 - category: Mobile Programming
   tags:
   - Java (Android)

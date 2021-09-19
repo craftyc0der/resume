@@ -6,16 +6,17 @@
 ÐMy experience is in software, hardware, and their interface. I am equally comfortable designing a high performance compute cluster, a tiny circuit, or a mobile computing interface to bring the other two things together. Managing a network of human resources and applying their narrow talents to a complex problem is the path to success.JS
 QVoracious reader of history. Math nerd. Guitarist. Husband. Father. Entrepreneur.R<Information Technology"
 €¨Ì€‡ªè2
-TucsonAZUSZ¢
+TucsonAZUSZÌ
 Principal ArchitectSynthesis Schoolhttps://synthesis.is/"
 €…»‰*
 AtlantaGAUS2@
-0Hire and guide a team of talented professionals.Scrum Master2ž
-hDesign and implementation of an authoritative, horizontally scalable, game server fleet management tool.GoGin
-KubernetesDynamoDBAgonesEKSRusoto2Ì
-’Member of team responsible for the overall cloud footprint with the goal of optimizing for reliability, responsiveness, and situational awareness.EC2ECRS3IAM	TerraformDataDogCloudFormation2’
+0Hire and guide a team of talented professionals.Scrum Master2³
+hDesign and implementation of an authoritative, horizontally scalable, game server fleet management tool.GoGinRustHelm
+KubernetesDynamoDBAgonesEKSRusotoNode.js2á
+’Member of team responsible for the overall cloud footprint with the goal of optimizing for reliability, responsiveness, and situational awareness.EC2ECRS3IAM	Terraform
+PrometheusGrafanaDatadogCloudFormation2’
 NDesign CI-CD systems to improve efficiency and reliability of code deployment.Github ActionsECRHelmEKS
-KubernetesAgonesDockerMakeZž
+KubernetesAgonesDockerMakeZ§
 %Senior Director of Cloud TechnologiesOnScalehttps://onscale.com/"
 €™ÂØ€âµ‰*
 AtlantaGAUS2=
@@ -23,14 +24,14 @@ KubernetesAgonesDockerMakeZž
 ºDesign and implementation of patented HPC scheduler for physics solvers on multiple clouds via Kubernetes, enabling highly parallel and multi-node simulations with end-to-end encryption.boto3CloudFormationVPC
 KubernetesEKSGKEAzureAKSDockerRedisKafkaGKES3EKSKMSDynamoDBLogDNALambda
 Linux BashJavaNode.js
-Serverless+https://www.youtube.com/watch?v=bxvZBfbyhiA2Þ
+Serverless+https://www.youtube.com/watch?v=bxvZBfbyhiA2ç
 kDesign and implementation of CI/CD infrastructure for and monitoring of the microservice application stack.TornadoDocker
 Kubernetes
 PrometheusHelmJenkinsGradleGitRedisKafka
 ServerlessGKEEKSECRS3CloudFormation
 Linux Bash
 KubernetesGrafanaEKSGKE
-PrometheusCortexHelmNode.jsCloud FunctionsLogDNALambda2Á
+PrometheusCortexDatadogHelmNode.jsCloud FunctionsLogDNALambda2Á
 SDesign and implementation of browser-based 3D spatial results visualization system.C/C++PythonTornado
 KubernetesVTKAngularThree.js
 TypeScript"https://youtu.be/SvPPpQrwlJE?t=1452Ñ
@@ -57,15 +58,15 @@ NDeveloped novel algorithms to search next-gen DNA sequences on custom silicon.
 ©Ground up design and implementation of real property risk management software tool responsible for insuring the majority of real property transactions in several states.JavaMS SQL ServerEC2RDSTSQL	AppEngineFirebaseCloud DataflowAccumuloBigtableGeospatial Expert+https://www.youtube.com/watch?v=Pfqpzak-pvE2Ç
 ÃBuilt a highly effective LSTM recurrent neural network to read deeds, mortgages and extract parties, legal descriptions, and amounts to reduce data entry costs. Trained on TBs of images and data.
 TensorFlowCloud DataflowApache BeamAI PlatformPolymer	AppEngineFirebase+https://www.youtube.com/watch?v=qDP8__fmzks2}
-fOwner of production quality data entry software system optimized for high accuracy and low time waste.JavaMS SQL Serverbc
+fOwner of production quality data entry software system optimized for high accuracy and low time waste.JavaMS SQL Serverbh
 AWSEC2ECREKSCloudFormation
-CloudTrailCognitoDynamoDBIAMKMSLambdaRDSS3VPCbx
-GCPAI Platform	AppEngineBigQueryBigtableCloud DataflowCloud FunctionsFirebaseGCEGCSGKEIAMAgonesbª
+CloudTrailCognitoDynamoDBIAMKMSLambdaRDSS3VPCAMPbx
+GCPAI Platform	AppEngineBigQueryBigtableCloud DataflowCloud FunctionsFirebaseGCEGCSGKEIAMAgonesb¯
 DevOpsDocker
 Kubernetes
-PrometheusCortexGrafanaHelmGithub Actions	TerraformJenkinsDataDogLogDNAGitRedisKafka
+PrometheusCortexGrafanaHelmGithub Actions	TerraformJenkinsDatadogAMPLogDNAGitRedisKafka
 ServerlessAirflowGradleMakebH
-General ProgrammingJavaGoC/C++C#RustPythonNode.jsScalabM
+General ProgrammingGoRustJavaC/C++PythonNode.jsScalaC#bM
 Mobile ProgrammingJava (Android)Objective CSwiftC# (Windows Mobile)bW
 Web ProgrammingGinAngularThree.jsHugoPolymer
 TypeScriptReact
