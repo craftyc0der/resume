@@ -49,7 +49,7 @@ experience:
   - description: Design CI-CD systems to improve efficiency and reliability of code deployment.
     tags: [GitHub, ECR, Helm, EKS, Kubernetes, Tekton, Docker, Make]
   - description: Owner of internal ETL systems for creation of data lakes for business analysis teams.
-    tags: [GitHub, ECR, Helm, EKS, Kubernetes, Airflow, Docker, Redshift, OpenSearch]
+    tags: [GitHub, ECR, Helm, EKS, Kubernetes, Airflow, Docker, Redshift, OpenSearch, Python, GraphQL]
 - title: Senior Director of Cloud Technologies
   organization: OnScale
   website: https://onscale.com/

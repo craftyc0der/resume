@@ -6,7 +6,7 @@
 ÐMy experience is in software, hardware, and their interface. I am equally comfortable designing a high performance compute cluster, a tiny circuit, or a mobile computing interface to bring the other two things together. Managing a network of human resources and applying their narrow talents to a complex problem is the path to success.JS
 QVoracious reader of history. Math nerd. Guitarist. Husband. Father. Entrepreneur.R<Information Technology"
 €¨Ì€‡ªè2
-TucsonAZUSZ¿	
+TucsonAZUSZÐ	
 Principal ArchitectSynthesis Schoolhttps://synthesis.is/"
 €…»‰*
 AtlantaGAUS2@
@@ -23,10 +23,10 @@ OpenSearch2ƒ
 ODesign and implementation of an role based authorization for internal services.GoGin
 KubernetesRedisEKSGitHubGraphQL2Š
 NDesign CI-CD systems to improve efficiency and reliability of code deployment.GitHubECRHelmEKS
-KubernetesTektonDockerMake2¢
+KubernetesTektonDockerMake2³
 UOwner of internal ETL systems for creation of data lakes for business analysis teams.GitHubECRHelmEKS
 KubernetesAirflowDockerRedshift
-OpenSearchZ¤
+OpenSearchPythonGraphQLZ¤
 %Senior Director of Cloud TechnologiesOnScalehttps://onscale.com/"
 €™ÂØ€âµ‰*
 AtlantaGAUS2=
