@@ -38,11 +38,18 @@ experience:
   - description: Hire and guide a team of talented professionals.
     tags: [Scrum Master]
   - description: Design and implementation of an authoritative, horizontally scalable, game server fleet management tool.
-    tags: [Go, Gin, Rust, Helm, Kubernetes, DynamoDB, Agones, EKS, Rusoto, Node.js]
-  - description: Member of team responsible for the overall cloud footprint with the goal of optimizing for reliability, responsiveness, and situational awareness.
-    tags: [EC2, ECR, S3, IAM, Terraform, Prometheus, Grafana, Datadog, CloudFormation]
+    tags: [Go, Gin, Rust, Helm, Kubernetes, Kubernetes Operators, Redis, Kafka, Agones, EKS, Rusoto]
+  - description: Design and implementation of enterprise observability system. Metrics, Logs, Tracing, Dashboards.
+    tags: [EC2, ECR, S3, IAM, Terraform, AMP, Prometheus, Grafana, Loki, Tempo, CloudFormation, OpenSearch, Cloudflare, Sentry, Vercel]
+    demo: https://craftycoder.com/blog/observability/
+  - description: Design and implementation of enterprise GraphQL database abstraction.
+    tags: [Go, Gin, GraphQL, Kubernetes, Redis, EKS, GraphQL, DynamoDB, OpenSearch]
+  - description: Design and implementation of an role based authorization for internal services.
+    tags: [Go, Gin, Kubernetes, Redis, EKS, GitHub, GraphQL]
   - description: Design CI-CD systems to improve efficiency and reliability of code deployment.
-    tags: [Github Actions, ECR, Helm, EKS, Kubernetes, Agones, Docker, Make]
+    tags: [GitHub, ECR, Helm, EKS, Kubernetes, Tekton, Docker, Make]
+  - description: Owner of internal ETL systems for creation of data lakes for business analysis teams.
+    tags: [GitHub, ECR, Helm, EKS, Kubernetes, Airflow, Docker, Redshift, OpenSearch]
 - title: Senior Director of Cloud Technologies
   organization: OnScale
   website: https://onscale.com/
@@ -54,17 +61,18 @@ experience:
   - description: Hire and lead team of talented professionals.
     tags: [Scrum Master]
   - description: Design and implementation of patented HPC scheduler for physics solvers on multiple clouds via Kubernetes, enabling highly parallel and multi-node simulations with end-to-end encryption.
-    tags: [boto3, CloudFormation, VPC, Kubernetes, EKS, GKE, Azure, AKS, Docker, Redis, Kafka, GKE, S3, EKS, KMS, DynamoDB, LogDNA, Lambda, Linux Bash, Java, Node.js, Serverless]
+    tags: [boto3, CloudFormation, Kubernetes, EKS, GKE, Azure, AKS, Docker, Redis, Kafka, GKE, S3, EKS, KMS, DynamoDB, LogDNA, Lambda, Java, Node.js, Serverless]
     demo: https://www.youtube.com/watch?v=bxvZBfbyhiA
   - description: Design and implementation of CI/CD infrastructure for and monitoring of the microservice application stack.
-    tags: [Tornado, Docker, Kubernetes, Prometheus, Helm, Jenkins, Gradle, Git, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash, Kubernetes, Grafana, EKS, GKE, Prometheus, Cortex, Datadog, Helm, Node.js, Cloud Functions, LogDNA, Lambda]
+    tags: [Tornado, Docker, Kubernetes, Prometheus, Helm, Jenkins, Gradle, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Kubernetes, Grafana, EKS, GKE, Prometheus, Cortex, Datadog, Helm, Node.js, Cloud Functions, LogDNA, Lambda]
   - description: Design and implementation of browser-based 3D spatial results visualization system.
     tags: [C/C++, Python, Tornado, Kubernetes, VTK, Angular, Three.js, TypeScript]
     demo: https://youtu.be/SvPPpQrwlJE?t=145
   - description: Owner of and contributor to our core simulation APIs framework, which has bindings to multiple programming languages and physics solvers.
     tags: [Rusoto, PyO3, wasm-bindgen, bindgen, Serde, NumPy, asyncio, Tornado]
+    demo: https://youtu.be/SvPPpQrwlJE?t=257
   - description: Responsible for all security and organization best practices. Earned SOC 2 compliance, lead AWS Advanced technical reviews, own disaster recovery plans.
-    tags: [DynamoDB, VPC, CloudTrail, BigQuery, Airflow, IAM, SOC 2, Scrum Master]
+    tags: [DynamoDB, CloudTrail, BigQuery, Airflow, IAM, SOC 2, Scrum Master]
 - title: Principal
   organization: DC Control Systems, LLC
   website: https://dc-control.com/
@@ -74,12 +82,12 @@ experience:
   location: *atlanta
   duty:
   - description: Designed for manufacture automotive electronics. Developed mobile applications and cloud software to provide in vehicle and motor pool situational awareness for customers.
-    tags: [C/C++, KiCad, Eagle, PCB Layout, Digital electronics design, Firmware, Bootloader, Bluetooth, Java (Android), Objective C, Firebase, AppEngine, Polymer]
+    tags: [C/C++, KiCad, Eagle, PCB Layout, Digital electronics design, Firmware, Bootloader, Bluetooth, Java, Objective C, Firebase, AppEngine, Polymer]
     demo: https://motobrain.net
   - description: Designed for manufacture a water purification sensor capable of 8 orders of magnitude of sensitivity in a transimpedience circuit.
     tags: [C/C++, KiCad, PCB Layout, Firmware, Digital electronics design, Analog electronics design, LT Spice]
   - description: Assisted recently acquired MEMS manufacturer to attach their novel sensors to MCUs, and Android. My code is running in Tesla automobiles I am told.
-    tags: [C/C++, Linux Kernel Drivers, Firmware, Java (Android)]
+    tags: [C/C++, Kernel Drivers, Firmware, Java]
 - title: Principal
   organization: Global Health Data Systems, LLC
   period:
@@ -88,7 +96,7 @@ experience:
   location: *atlanta
   duty:
   - description: Developed mobile versions of VAERS (Vaccine Adverse Event Reporting System) for CDC as primary contractor.
-    tags: [GCS, Swift, Objective C, Java (Android), C# (Windows Mobile), Polymer]
+    tags: [GCS, Swift, Objective C, Java, C#, Polymer]
   - description: Developed novel algorithms to search next-gen DNA sequences on custom silicon.
     tags: [Scala, FPGA, VHDL]
 - title: Software Architect
@@ -101,32 +109,34 @@ experience:
   duty:
   - description: Ground up design and implementation of real property risk management software tool responsible for insuring the majority of real property transactions in several states.
     tags: [Java, MS SQL Server, EC2, RDS, TSQL, AppEngine, Firebase, Cloud Dataflow, Accumulo, Bigtable, Geospatial Expert]
-    demo: https://www.youtube.com/watch?v=Pfqpzak-pvE
+    demo: https://youtu.be/Qm-ZqpaitH0
   - description: Built a highly effective LSTM recurrent neural network to read deeds, mortgages and extract parties, legal descriptions, and amounts to reduce data entry costs. Trained on TBs of images and data.
     tags: [TensorFlow, Cloud Dataflow, Apache Beam, AI Platform, Polymer, AppEngine, Firebase]
-    demo: https://www.youtube.com/watch?v=qDP8__fmzks
+    demo: https://youtu.be/oor5jIql9Gw
   - description: Owner of production quality data entry software system optimized for high accuracy and low time waste.
     tags: [Java, MS SQL Server]
 skills:
 - category: AWS
   tags:
-  - EC2
-  - ECR
-  - EKS
+  - AMP
   - CloudFormation
   - CloudTrail
   - Cognito
   - DynamoDB
+  - EC2
+  - ECR
+  - EKS
   - IAM
   - KMS
   - Lambda
+  - OpenSearch
+  - Redshift
   - RDS
   - S3
-  - VPC
-  - AMP
 - category: GCP
   tags:
   - AI Platform
+  - Agones
   - AppEngine
   - BigQuery
   - Bigtable
@@ -137,102 +147,105 @@ skills:
   - GCS
   - GKE
   - IAM
-  - Agones
 - category: DevOps
   tags:
-  - Docker
-  - Kubernetes
-  - Prometheus
+  - Airflow
   - Cortex
+  - Cloudflare
+  - Datadog
+  - Docker
+  - GitHub
+  - GraphQL
+  - Gradle
   - Grafana
   - Helm
-  - Github Actions
-  - Terraform
   - Jenkins
-  - Datadog
-  - AMP
-  - LogDNA
-  - Git
-  - Redis
   - Kafka
-  - Serverless
-  - Airflow
-  - Gradle
+  - Kubernetes
+  - Kubernetes Operators
+  - LogDNA
+  - Loki
   - Make
+  - Prometheus
+  - Redis
+  - Sentry
+  - Serverless
+  - Tekton
+  - Tempo
+  - Terraform
+  - Vercel
 - category: General Programming
   tags:
-  - Go
-  - Rust
-  - Java
   - C/C++
-  - Python
-  - Node.js
-  - Scala
   - C#
+  - Go
+  - Java
+  - Node.js
+  - Python
+  - Rust
+  - Scala
 - category: Mobile Programming
   tags:
-  - Java (Android)
+  - C#
+  - Java
   - Objective C
   - Swift
-  - C# (Windows Mobile)
 - category: Web Programming
   tags:
-  - Gin
   - Angular
-  - Three.js
+  - Gin
   - Hugo
   - Polymer
-  - TypeScript
   - React
-  - Coldfusion
+  - Three.js
+  - TypeScript
 - category: Rust
   tags:
+  - bindgen
+  - PyO3
   - Rusoto
   - Serde
-  - bindgen
   - wasm-bindgen
-  - PyO3
 - category: Python
   tags:
-  - pandas
-  - NumPy
   - asyncio
+  - boto3
+  - NumPy
+  - pandas
   - TensorFlow
   - Tornado
-  - boto3
 - category: Database
   tags:
-  - MS SQL Server
-  - TSQL
   - Accumulo
-  - Geospatial Expert
-  - Bigtable
-  - Firebase
   - BigQuery
-  - Foxpro
+  - Bigtable
+  - DynamoDB
+  - Firebase
+  - Geospatial Expert
+  - MS SQL Server
+  - OpenSearch
+  - Redshift
+  - TSQL
 - category: Electronics
   tags:
-  - FPGA
-  - VHDL
-  - Digital electronics design
   - Analog electronics design
-  - Firmware
-  - Bootloader
   - Bluetooth
-  - PCB Layout
-  - KiCad
+  - Bootloader
+  - Digital electronics design
   - Eagle
+  - Firmware
+  - FPGA
+  - KiCad
   - LT Spice
+  - PCB Layout
+  - VHDL
 - category: Other
   tags:
-  - Apache Beam
-  - VTK
-  - Jersey 2
-  - Linux Bash
-  - Linux Kernel Drivers
-  - SOC 2
-  - Scrum Master
-  - Azure
   - AKS
-
-
+  - Apache Beam
+  - Azure
+  - Jersey 2
+  - Kernel Drivers
+  - Scrum Master
+  - SOC 2
+  - VTK

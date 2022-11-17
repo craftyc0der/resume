@@ -38,12 +38,14 @@ python -m http.server 8081 &
 PID=$!
 cd ..
 
-sleep 1
+sleep 5
 
 {
     google-chrome --headless --disable-gpu \
         --run-all-compositor-stages-before-draw \
         --print-to-pdf="$OUTFILE" \
+        --virtual-time-budget=10000 \
+        --timeout=10000 \
         http://localhost:8081
 
 } || {
