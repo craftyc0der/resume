@@ -44,6 +44,7 @@ experience:
     demo: https://craftycoder.com/blog/observability/
   - description: Design and implementation of enterprise GraphQL database abstraction.
     tags: [Go, Gin, GraphQL, Kubernetes, Redis, EKS, GraphQL, DynamoDB, OpenSearch]
+    demo: https://craftycoder.com/blog/graphql-gqlgen-dynamodb/
   - description: Design and implementation of an role based authorization for internal services.
     tags: [Go, Gin, Kubernetes, Redis, EKS, GitHub, GraphQL]
   - description: Design CI-CD systems to improve efficiency and reliability of code deployment.

@@ -6,7 +6,8 @@
 ÐMy experience is in software, hardware, and their interface. I am equally comfortable designing a high performance compute cluster, a tiny circuit, or a mobile computing interface to bring the other two things together. Managing a network of human resources and applying their narrow talents to a complex problem is the path to success.JS
 QVoracious reader of history. Math nerd. Guitarist. Husband. Father. Entrepreneur.R<Information Technology"
 €¨Ì€‡ªè2
-TucsonAZUSZÐ	
+TucsonAZUSZ‡
+
 Principal ArchitectSynthesis Schoolhttps://synthesis.is/"
 €…»‰*
 AtlantaGAUS2@
@@ -16,10 +17,10 @@ KubernetesKubernetes OperatorsRedisKafkaAgonesEKSRusoto2
 aDesign and implementation of enterprise observability system. Metrics, Logs, Tracing, Dashboards.EC2ECRS3IAM	TerraformAMP
 PrometheusGrafanaLokiTempoCloudFormation
 OpenSearch
-CloudflareSentryVercel+https://craftycoder.com/blog/observability/2
+CloudflareSentryVercel+https://craftycoder.com/blog/observability/2Ç
 EDesign and implementation of enterprise GraphQL database abstraction.GoGinGraphQL
 KubernetesRedisEKSGraphQLDynamoDB
-OpenSearch2ƒ
+OpenSearch5https://craftycoder.com/blog/graphql-gqlgen-dynamodb/2ƒ
 ODesign and implementation of an role based authorization for internal services.GoGin
 KubernetesRedisEKSGitHubGraphQL2Š
 NDesign CI-CD systems to improve efficiency and reliability of code deployment.GitHubECRHelmEKS
