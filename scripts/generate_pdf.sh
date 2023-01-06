@@ -38,7 +38,7 @@ python -m http.server 8081 &
 PID=$!
 cd ..
 
-sleep 5
+sleep 10
 
 {
     google-chrome --headless --disable-gpu \
